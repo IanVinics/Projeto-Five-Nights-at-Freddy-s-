@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+    .fundo-imagem2 {
+        display: flex;
+    }
+
+    .container2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container2 .spring2 {
+        max-width: 50%;
+    }
+
+    .container2 .informacoes2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container2 .historia2 {
+        background: rgb(98,2,98);
+    background: linear-gradient(90deg, rgb(98, 2, 98) 0%, rgba(111,3,111,1) 48%, rgba(178,2,178,1) 100%);
+    }
+
+    .container2 .descricao2 {
+        color: #a8adb7;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .cabecalho2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+}

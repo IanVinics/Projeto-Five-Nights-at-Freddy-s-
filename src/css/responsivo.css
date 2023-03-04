@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+    .fundo-imagem {
+        display: flex;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .freddy {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .botao {
+        background: rgb(98,2,98);
+    background: linear-gradient(90deg, rgb(98, 2, 98) 0%, rgba(111,3,111,1) 48%, rgba(178,2,178,1) 100%);
+    }
+
+    .container .descricao {
+        color: #a8adb7;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+}
